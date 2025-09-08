@@ -1,0 +1,52 @@
+{
+  "pm": {
+    "name": "Project Manager",
+    "file": "vcli/.agents/planning/pm.md",
+    "description": "Creates initial project vision, business requirements, and project planning"
+  },
+  "architect": {
+    "name": "Architect",
+    "file": "vcli/.agents/planning/architect.md",
+    "description": "Designs technical solution, architecture diagrams, and tech stack"
+  },
+  "spike": {
+    "name": "Spike Agent",
+    "file": "vcli/.agents/planning/spike.md",
+    "description": "Researches technical unknowns and creates research documentation"
+  },
+  "em": {
+    "name": "Engineering Manager",
+    "file": "vcli/.agents/planning/em.md",
+    "description": "Plans implementation, creates epics, and manages technical roadmap"
+  },
+  "release-manager": {
+    "name": "Release Manager",
+    "file": "vcli/.agents/planning/release-manager.md",
+    "description": "Defines deployment strategy and manages release processes"
+  },
+  "git-handler": {
+    "name": "Git Handler",
+    "file": "vcli/.agents/development/git-handler.md",
+    "description": "Manages version control, branching, commits, and deployments"
+  },
+  "dev": {
+    "name": "Developer",
+    "file": "vcli/.agents/development/dev.md",
+    "description": "Implements features following architectural patterns and best practices"
+  },
+  "code-reviewer": {
+    "name": "Code Reviewer",
+    "file": "vcli/.agents/development/code-reviewer.md",
+    "description": "Ensures code quality, architectural compliance, and maintains standards"
+  },
+  "qa": {
+    "name": "QA Agent",
+    "file": "vcli/.agents/development/qa.md",
+    "description": "Validates functionality through comprehensive testing and automation"
+  },
+  "prompt-engineer": {
+    "name": "Prompt Engineer",
+    "file": "vcli/.agents/prompt-engineer.md",
+    "description": "Meta-agent for creating and maintaining other agent prompts"
+  }
+}

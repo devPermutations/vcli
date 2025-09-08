@@ -1,0 +1,62 @@
+{
+  "mcpServers": {
+    "agent-ecosystem": {
+      "command": "node",
+      "args": ["-e", "console.log('Agent ecosystem MCP server placeholder')"],
+      "env": {},
+      "disabled": false
+    }
+  },
+  "agentReferences": {
+    "pm": {
+      "name": "Project Manager",
+      "file": ".agents/planning/pm.md",
+      "description": "Creates initial project vision and business requirements"
+    },
+    "architect": {
+      "name": "Architect",
+      "file": ".agents/planning/architect.md",
+      "description": "Designs technical solution and architecture"
+    },
+    "spike": {
+      "name": "Spike Agent",
+      "file": ".agents/planning/spike.md",
+      "description": "Researches technical unknowns and knowledge gaps"
+    },
+    "em": {
+      "name": "Engineering Manager",
+      "file": ".agents/planning/em.md",
+      "description": "Plans implementation and manages epics"
+    },
+    "release-manager": {
+      "name": "Release Manager",
+      "file": ".agents/planning/release-manager.md",
+      "description": "Defines deployment strategy and release processes"
+    },
+    "git-handler": {
+      "name": "Git Handler",
+      "file": ".agents/development/git-handler.md",
+      "description": "Manages version control and deployments"
+    },
+    "dev": {
+      "name": "Developer",
+      "file": ".agents/development/dev.md",
+      "description": "Implements features following architectural patterns"
+    },
+    "code-reviewer": {
+      "name": "Code Reviewer",
+      "file": ".agents/development/code-reviewer.md",
+      "description": "Ensures code quality and architectural compliance"
+    },
+    "qa": {
+      "name": "QA Agent",
+      "file": ".agents/development/qa.md",
+      "description": "Validates functionality through automated testing"
+    },
+    "prompt-engineer": {
+      "name": "Prompt Engineer",
+      "file": ".agents/prompt-engineer.md",
+      "description": "Creates and maintains agent prompts (meta-agent)"
+    }
+  }
+}

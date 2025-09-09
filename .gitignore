@@ -60,3 +60,8 @@ temp/
 # Project specific
 /docs/deployments/
 /docs/progress/epics/
+
+# Git related
+*.orig
+*.rej
+*.patch

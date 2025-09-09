@@ -24,9 +24,9 @@ Agents collaborate through documented artifacts and clear handoffs, with built-i
 ## Installation
 
 ### Prerequisites
-- Node.js (for agent discovery scripts)
 - Git
 - GitHub CLI (optional, for PR management)
+- Cursor IDE (for @ agent references)
 
 ### Setup
 ```bash
@@ -34,17 +34,14 @@ Agents collaborate through documented artifacts and clear handoffs, with built-i
 git clone https://github.com/devPermutations/vcli.git
 cd vcli
 
-# Install dependencies (if any)
-npm install
-
-# Set up Cursor integration
-node .cursor/agent-discovery.js
+# Restart Cursor to enable @ agent references
+# The MCP configuration will automatically load agent references
 ```
 
 ### Cursor Integration
 The system integrates with Cursor IDE for agent references using @ symbols:
 
-1. Restart Cursor after setup
+1. Restart Cursor after setup to load the MCP configuration
 2. Type `@` followed by agent name for references:
    - `@pm` - Project Manager
    - `@architect` - Architect

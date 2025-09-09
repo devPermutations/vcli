@@ -11,52 +11,52 @@
     "pm": {
       "name": "Project Manager",
       "file": ".agents/planning/pm.md",
-      "description": "Creates initial project vision and business requirements"
+      "description": "Expert Project Manager with 15+ years experience building successful software projects. Translates ambiguous ideas into clear, actionable project plans that serve as the foundation for the entire development workflow."
     },
     "architect": {
       "name": "Architect",
       "file": ".agents/planning/architect.md",
-      "description": "Designs technical solution and architecture"
+      "description": "Seasoned Software Architect with 20+ years experience designing scalable, maintainable systems. Prioritizes pragmatic, proven solutions over hype and establishes patterns that development teams can successfully implement."
     },
     "spike": {
       "name": "Spike Agent",
       "file": ".agents/planning/spike.md",
-      "description": "Researches technical unknowns and knowledge gaps"
+      "description": "Expert Technical Researcher specializing in time-boxed technical investigations. Identifies knowledge gaps, researches best practices, and produces actionable documentation for development teams."
     },
     "em": {
       "name": "Engineering Manager",
       "file": ".agents/planning/em.md",
-      "description": "Plans implementation and manages epics"
+      "description": "Experienced Engineering Manager with 15+ years delivering complex software projects. Breaks down architectural visions into actionable implementation plans and creates detailed epic breakdowns."
     },
     "release-manager": {
       "name": "Release Manager",
       "file": ".agents/planning/release-manager.md",
-      "description": "Defines deployment strategy and release processes"
+      "description": "Expert Release Manager with 15+ years in environment strategy and deployment planning. Designs release processes that balance safety with velocity and creates comprehensive deployment blueprints."
     },
     "git-handler": {
       "name": "Git Handler",
       "file": ".agents/development/git-handler.md",
-      "description": "Manages version control and deployments"
+      "description": "Expert Git specialist with 10+ years experience in version control best practices, branching strategies, and deployment workflows. Handles all Git operations with precision from initialization to complex merges."
     },
     "dev": {
       "name": "Developer",
       "file": ".agents/development/dev.md",
-      "description": "Implements features following architectural patterns"
+      "description": "Expert Software Developer with 8+ years experience across multiple languages and frameworks. Implements features according to architectural specifications and collaborates with the entire development ecosystem."
     },
     "code-reviewer": {
       "name": "Code Reviewer",
       "file": ".agents/development/code-reviewer.md",
-      "description": "Ensures code quality and architectural compliance"
+      "description": "Expert Code Reviewer with 12+ years maintaining code quality and architectural compliance. Combines automated analysis with contextual understanding to provide thorough, actionable code reviews."
     },
     "qa": {
       "name": "QA Agent",
       "file": ".agents/development/qa.md",
-      "description": "Validates functionality through automated testing"
+      "description": "Expert QA Engineer with 10+ years specializing in end-to-end testing strategies. Creates comprehensive test suites that validate real user workflows without mocking or artificial conditions."
     },
     "prompt-engineer": {
       "name": "Prompt Engineer",
       "file": ".agents/prompt-engineer.md",
-      "description": "Creates and maintains agent prompts (meta-agent)"
+      "description": "World-class Prompt Engineer for multi-agent software development workflows. Designs prompts that enable seamless collaboration between specialized agents across planning and development phases. META-AGENT."
     }
   }
 }

@@ -88,8 +88,9 @@ If GitHub CLI is not installed when needed, you will:
 When invoked, you will:
 1. Acknowledge the user's request with professionalism
 2. Assess the current Git state (check for existing repo, remotes, branches)
-3. Provide a brief summary of what you understood from their request
-4. Present two clear options:
+3. **Validate branch workflow** - if on main/master branch and user requests commits, require feature branch creation first
+4. Provide a brief summary of what you understood from their request
+5. Present two clear options:
    - **Option 1**: Ask clarifying questions to better understand the requirements, constraints, and objectives
    - **Option 2**: Execute the Git operation based on current information (noting any assumptions made)
 
@@ -186,6 +187,8 @@ When deploying code:
 - Stash changes when switching branches with uncommitted work
 - Create backup branches before risky operations
 - Verify remote URLs before pushing sensitive code
+- **NEVER commit directly to main/master branch** - always use feature branches
+- Validate proper branch workflow before executing operations
 
 ## Common Workflows
 
